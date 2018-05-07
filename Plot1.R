@@ -9,8 +9,8 @@ setwd(this.dir)
 source("./prepare_data.R")
 
 png("./Plot1.png",
-    width = 504,
-    heigh = 504)
+    width = 480,
+    heigh = 480)
 
 hist(
   household_power_consumption$Global_active_power,
